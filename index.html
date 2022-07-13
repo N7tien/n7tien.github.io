@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment créer son propre e-portfolio via html ?</title>
+    <link href="http://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link href="styles/menu-deroulant.css" rel="stylesheet" type="text/css">
+    <link href="styles/menu-styles.css" rel="stylesheet" type="text/css">
+    <link href="styles/galerie-images.css" rel="stylesheet" type="text/css">
+    <link href="styles/proportion.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<body>
+
+
+    <header>
+
+        <h1 class="centre">PORTFOLIO OF FRANÇOIS LAURIOL-FRISQUE</h1>
+
+        <nav style="border: 0px solid black">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+
+
+            <ul>
+                <li><a class="active" href="index.html">Welcome</a></li>
+                <li class="deroulant">
+                    <a href="engineering-course.html">Engineering course</a>
+                    <ul class="sous">
+                        <li>
+                            <a href="engineering-course/projets.html">Projects</a>
+                        </li>
+                        <li>
+                            <a href="engineering-course/productions.html">Productions</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="deroulant">
+                    <a href="international-mobility.html">International Mobility</a>
+                    <ul class="sous">
+                        <li>
+                            <a href="international-mobility/professional-english.html">Professional English</a>
+                        </li>
+                        <li>
+                            <a href="international-mobility/russian.html">Russian</a>
+                        </li>
+                        <li>
+                            <a href="international-mobility/trips.html">Trips</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="sustainability&civic-engagement.html">Sustainability & Civic Engagement</a>
+                </li>
+                <li>
+                    <a href="sport&other-activities.html">Sport & other activities</a>
+                </li>
+                <li class="deroulant">
+                    <a href="career-development.html">Career Development</a>
+                    <ul class="sous">
+                        <li>
+                            <a href="career-development/professional-networking.html">Professional Networking</a>
+                        </li>
+                        <li>
+                            <a href="career-development/sustainable-development.html">Sustainable Development</a>
+                        </li>
+                        <li>
+                            <a href="career-development/internships.html">Internships</a>
+                        </li>
+                        <li>
+                            <a href="career-development/ppp.html">PPP</a>
+                        </li>
+                        <li>
+                            <a href="career-development/mbti.html">MBTI</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <hr style="clear: both; height: 1px; visibility: hidden; margin: 0; padding: 0" />
+        </nav>
+
+
+    </header>
+    <div id="content">
+        <section>
+
+            <img src="images/welcome.png" alt="Welcome !" weigth="100%">
+
+            <h2>
+                François Lauriol-Frisque
+            </h2>
+
+            <h3>
+                <i>Computer engineering student at ENSEEIHT</i>
+            </h3>
+
+            <img src="images/2024_SN_LAURIOL_François.jpg" alt="young programer" width=50%>
+
+            <h4>About me</h4>
+
+            <p> <i>First year digital science student at ENSEEIHT, I would like to become an aerospace engineer. I have
+                    always been attracted by scientific logic, therefore I have regularly participated in several maths
+                    and computing competitions. This predilection is one of the main reasons that I have been attracted
+                    by space and all the unsolved questions about it.</i> </p>
+
+            <div class="colonne">
+                <div class="ligne">
+                    <img src="images/enseeiht.png" alt="N7">
+                </div>
+                    
+                <div class="ligne">
+                    <img src="images/logo-cube.png" alt="Prologin">
+                    <img  src="images/TFJM2.jpg" alt="TFJM2" width="70%">
+                    <img src="images/logokangourou.jpg" alt="Kangourou">
+                </div>
+            </div>
+
+        </section>
+    </div>
+    <div id="footer">
+        <footer class="centre">
+
+            <div class='imgselect'>
+                <a href="https://www.linkedin.com/in/fra--lau-fri/"><img src="images/linkein.png" alt="LinkedIn"
+                        width='10%'></a>
+            </div>
+
+        </footer>
+    </div>
+
+    <hr style="clear: both; height: 1px; visibility: hidden; margin: 0; padding: 0" />
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

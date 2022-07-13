@@ -1,0 +1,11 @@
+@media (min-width: 1001px) {
+    header, footer {
+        left:25%;
+        width:15%;
+    }
+    section {
+        left:40%;
+        width: 35%;
+        float: left;
+    }
+}
