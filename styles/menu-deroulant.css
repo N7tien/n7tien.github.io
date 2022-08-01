@@ -28,13 +28,13 @@ nav ul::after{
 nav a{
     display: block;
     text-decoration: none;
-    color: black;
+    color: white;
     border-bottom: 2px solid transparent;
     padding: 10px 0px;
 }
 
 nav a:hover{
-    color: black;
+    color: white;
     border-bottom: 2px solid 32508d;
 }
 
@@ -42,7 +42,7 @@ nav a:hover{
     display: none;
     box-shadow: 0px 0px 0px;
     background-color: #0b6b7e;
-    position: absolute;
+    position: relative;
     z-index: 1000;
 }
 
@@ -87,8 +87,8 @@ nav > ul li:hover .sous {
     display: none;
     box-shadow: 0px 0px 0px;
     background-color: #0b6b7e;
-    position: absolute;
-    z-index: 1000;
+    position: relative;
+    z-index: 2000;
 }
 
 
@@ -129,5 +129,15 @@ nav > ul .sous li:hover .sous2 {
 
 
 nav .deroulant ul li a {
-    color: #000;
+    color: white;
+}
+
+nav .deroulant ul li .active {
+    color: #0b6b7e;
+    transition: .5s;
+}
+
+nav .deroulant ul li .active:hover {
+    color: white;
+    transition: .5s;
 }

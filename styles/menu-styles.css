@@ -61,6 +61,8 @@ a:hover {
     nav ul li a {
         font-size: 16px;
     }
+
+    
 }
 
 @media (max-width: 875px) {
@@ -68,25 +70,36 @@ a:hover {
         display: block;
     }
 
-    nav ul {
+    nav .menu {
+        top: 0;
         position: fixed;
-        width: 100%;
+        width: 70%;
         height: 100vh;
         background: #27282c;
-        top: 80px;
-        left: -100%;
+        left: 100%;
         text-align: center;
         transition: all .5s;
+        margin: 0 auto;
+        z-index: 500;
     }
 
-    nav ul li {
+    nav .sous, nav .sous2 {
+        background-color: #27282c;
+    }
+
+    nav .deroulant ul li a {
+        color: white;
+    }
+
+    nav .menu li {
         display: block;
-        margin: 50px 0;
+        margin: 20px 0;
         line-height: 30px;
     }
 
-    nav ul li a {
+    nav .menu li a {
         font-size: 20px;
+
     }
 
     a.active {
@@ -97,10 +110,12 @@ a:hover {
     a:hover {
         background: #0b6b7e;
         transition: .5s;
-        color: #022f69;
+        color: white;
     }
 
     #check:checked~ul {
-        left: 0;
+        left: 30%;
     }
+
+    
 }

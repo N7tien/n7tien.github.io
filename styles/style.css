@@ -28,9 +28,10 @@ li {
 
 
 
-header {
+
+header{
     position: absolute;
-    top:40%;
+    top:0%;
     left:0px;
     width: 30%;
     height: 100%;
@@ -38,20 +39,24 @@ header {
     background-color: #0d7e95;
     padding: auto;
     border: 0px solid black;
-    
+    color: white;
+    z-index: 2;
 }
 
 header h1{
-    position: fixed;
-    top:5%;
-    left:0px;
-    width: 30%;
+    top : 5%;
+}
+
+header nav {
+    position: absolute;
+    top:40%;
     margin: 0 auto;
     background-color: #0d7e95;
     padding: auto;
     border: 0px solid black;
     color: white;
     font-size: 30px;
+    
 }
 
 section {
