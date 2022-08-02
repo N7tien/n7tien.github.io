@@ -8,6 +8,10 @@ label.logo {
     font-weight: bold;
 }
 
+nav {
+    z-index: 9;
+}
+
 nav ul {
     margin-right: 10px;
 }
@@ -50,6 +54,9 @@ a:hover {
     margin-right: 40px;
     cursor: pointer;
     display: none;
+    position: absolute;
+    left: 5%;
+    width: 90%;
 }
 
 #check {
@@ -84,6 +91,7 @@ nav .deroulant ul li .active:hover {
     .checkbtn {
         display: block;
     }
+
 
     nav .menu {
         top: 0;
