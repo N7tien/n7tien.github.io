@@ -1,7 +1,7 @@
 nav {
     width: 100%;
     margin: 0 auto;
-    background-color: #0d7e95;
+    background-color: #32508d;
     position: sticky;
     top: 0px;
     padding-top: 10px;
@@ -14,7 +14,7 @@ nav ul {
 
 nav ul li {
     float: left;
-    width: 100%;
+    width: 23%;
     text-align: center;
     position: relative;
 }
@@ -28,21 +28,21 @@ nav ul::after{
 nav a{
     display: block;
     text-decoration: none;
-    color: white;
+    color: black;
     border-bottom: 2px solid transparent;
     padding: 10px 0px;
 }
 
 nav a:hover{
-    color: white;
+    color: black;
     border-bottom: 2px solid 32508d;
 }
 
 .sous {
     display: none;
     box-shadow: 0px 0px 0px;
-    background-color: #0b6b7e;
-    position: relative;
+    background-color: #3dc3ff;
+    position: absolute;
     z-index: 1000;
 }
 
@@ -74,7 +74,7 @@ nav > ul li:hover .sous {
 
 .sous li:hover {
     border-bottom: none;
-    background-color: #0b6b7e;
+    background-color: #3dc3ff;
 }
 
 .deroulant > a::after {
@@ -86,7 +86,7 @@ nav > ul li:hover .sous {
 .sous2 {
     display: none;
     box-shadow: 0px 0px 0px;
-    background-color: #0b6b7e;
+    background-color: #3dc3ff;
     position: relative;
     z-index: 2000;
 }
@@ -119,7 +119,7 @@ nav > ul .sous li:hover .sous2 {
 
 .sous2 li:hover {
     border-bottom: none;
-    background-color: #0b6b7e;
+    background-color: #3dc3ff;
 }
 
 .deroulant2 > a::after {
@@ -129,15 +129,5 @@ nav > ul .sous li:hover .sous2 {
 
 
 nav .deroulant ul li a {
-    color: white;
-}
-
-nav .deroulant ul li .active {
-    color: #0b6b7e;
-    transition: .5s;
-}
-
-nav .deroulant ul li .active:hover {
-    color: white;
-    transition: .5s;
+    color: #000;
 }

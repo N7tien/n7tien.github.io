@@ -11,7 +11,7 @@ html {
     /* px signifie 'pixels': la taille de base pour la police est désormais 10 pixels de haut  */
     font-family: 'Nunito', sans-serif;
     /* cela devrait être le reste du résultat obtenu à partir de Google fonts */
-    background-color: #0d7e95;
+    background-color: #3dc3ff;
 }
 
 body {
@@ -26,75 +26,46 @@ li {
     letter-spacing: 1px;
 }
 
-
-
-
-header{
-    position: fixed;
-    top:0%;
+header {
+    position: relative;
+    top:0px;
     left:0px;
-    width: 30%;
-    height: 100%;
+    display: block;
+    width: 100%;
     margin: 0 auto;
-    background-color: #0d7e95;
+    background-color: #32508d;
     border: 0px solid black;
-    color: white;
-    z-index: 6;
-    height: 80%;
-}
-
-header h1{
-    top : 5%;
-}
-
-header nav {
-    position: absolute;
-    top:40%;
-    margin: 0 auto;
-    background-color: #0d7e95;
-    padding: auto;
-    border: 0px solid black;
-    color: white;
-    font-size: 30px;
-    text-align: center;
-    
+    z-index: 2;
 }
 
 section {
-    position: absolute;
+    position: relative static;
     width: 70%;
     margin: 0 auto;
     background-color: white;
     padding: 0 20px 20px 20px;
     border: 0px solid black;
-    float: left;
-    left: 30%;
-    z-index: 4;
 }
 
 footer {
-    position: fixed;
     left:0px;
     display: flex;
-    width: 30%;
-    height: 30%;
+    width: 100%;
     margin: 0 auto;
-    background-color: #0d7e95;
+    background-color: #32508d;
     padding: 0 20px 20px 20px;
     border: 0px solid black;
-    top: 80%;
-    float: left;
+    position:absolute; 
+    bottom: 0 auto;
 }
-
-
 
 
 
 h2 {
-    font-size: 50px;
+    font-size: 60px;
     margin: 0;
     padding: 20px 0;
-    color: #0b6b7e;
+    color: #00539F;
     text-shadow: 3px 3px 1px black;
     text-align: center;
 }
@@ -102,8 +73,6 @@ h2 {
 img {
     display: block;
     margin: 0 auto;
-    max-width: 100%;
-    height: auto;
 }
 
 
@@ -115,39 +84,14 @@ img {
 a {
     color:white;
 }
-
 section a {
-    color:#0b6b7e;
-}
-
-.imgselect {
-
-    inset: 0;
+    color:#32508d;
 }
 
 h3 {
-    font-size: 16px;
-    line-height: 2;
-    letter-spacing: 1px;
-    font-weight: lighter;
-}
-
-
-h4 {
-    font-size: 20px;
-    line-height: 2;
-    letter-spacing: 1px;
-    font-weight: bolder;
-}
-
-h4 a {
-    color: black;
-}
-
-h5 {
-    font-size: 30px;
-    line-height: 2;
-    letter-spacing: 1px;
-    font-weight: lighter;
-    margin: auto;
+    font-size: 50px;
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-align: left;
 }
